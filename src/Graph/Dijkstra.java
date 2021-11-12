@@ -1,4 +1,4 @@
-package ShortestPath;
+package Graph;
 
 public class Dijkstra {
 }

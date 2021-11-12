@@ -1,4 +1,4 @@
-package TreesTest;
+package TreeTest;
 
 import Tree.Traversal;
 import Tree.TreeNode;

@@ -5,10 +5,15 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * Depth First Search of binary Tree: inorder, preorder, postorder traversals
+ * Breadth First Search of binary Tree: level order traversal
+ */
 public class Traversal {
 
     /**
      * Time complexity: O(n)
+     * space complexity: O(h), h is height of tree
      * @param root - root of tree
      * @return - inorder traversal of of the nodes' values
      */
@@ -29,6 +34,7 @@ public class Traversal {
 
     /**
      * Time complexity: O(n)
+     * space complexity: O(h), h is height of tree
      * @param root - root of tree
      * @return postorder traversal of of the nodes' values
      */
@@ -47,6 +53,7 @@ public class Traversal {
 
     /**
      * time complexity: O(n)
+     * space complexity: O(h), h is height of tree
      * @param root - root of tree
      * @return preorder traversal of of the nodes' values
      */
@@ -65,7 +72,7 @@ public class Traversal {
 
     /**
      * time complexity: O(n)
-     * space complexity: O(n)
+     * space complexity: O(w) where w is max width of binary tree
      * @param root - root of tree
      * @return levelorder traversal of of the nodes' values
      */
